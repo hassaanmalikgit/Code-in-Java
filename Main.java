@@ -1,18 +1,17 @@
 import java.util.Scanner;
 
-public class FizzBuzzGame {
+public class ClassActivity {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        System.out.print("Enter a number: ");
-        int n = scanner.nextInt();  // Get user input
+        System.out.print("Enter an integer: ");
+        int n = scanner.nextInt();
 
         for (int i = 1; i <= n; i++) {
-            // Print Fizz, Buzz, or FizzBuzz based on the conditions
             if (i % 3 == 0 && i % 5 == 0) {
                 System.out.println("FizzBuzz");
             } else if (i % 3 == 0) {
-                System.out.println("Fizz");
+                System .out.println("Fizz");
             } else if (i % 5 == 0) {
                 System.out.println("Buzz");
             } else {
@@ -20,6 +19,6 @@ public class FizzBuzzGame {
             }
         }
 
-        scanner.close();  // Close the scanner
+        scanner.close();
     }
 }
