@@ -6,7 +6,7 @@ public class OOPTASK6 {
 
         System.out.print("Enter a string: ");
         String userInput = scanner.nextLine();
-int length = userInput.length();
+        int length = userInput.length();
         System.out.println("The length of the entered string is: " +length);
         scanner.close();
     }
